@@ -18,19 +18,3 @@
 
 ### ⚙️ 工作内容
 通过 `load_dataset()` 下载数据并保存为 CSV 文件：
-
-```python
-from huggingface_hub import login
-from datasets import load_dataset
-import pandas as pd, os
-
-# 登录 Hugging Face（只需一次，不保存 Token）
-login()
-
-# 加载数据集（当前使用验证可用的数据源）
-dataset = load_dataset("minpeter/xlam-function-calling-60k-parsed")
-
-# 保存至本地 data/raw/
-os.makedirs("data/raw", exist_ok=True)
-pd.DataFrame(dataset["train"]).to_csv("data/raw/apigen.csv", index=False)
-print("✅ Saved dataset to data/raw/apigen.csv")
