@@ -1,0 +1,361 @@
+{
+  "overall": {
+    "n": 50,
+    "tool_acc": 1.0,
+    "arg_em": 1.0,
+    "exec_success": 1.0,
+    "joint": 1.0
+  },
+  "per_tool": {
+    "analyze_social_group_dynamics": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "assess_diabetes_risk": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "bacterial_growth": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "batting_average": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "binary_addition": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "cagr": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_calorie_intake": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_distance": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_electric_field": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_investment_return": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_median": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_quarterly_dividend": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_standard_deviation": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "california_alimony": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "cell_density": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "chi_square_independence_test": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "circle_area": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "compound_interest": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "dice_roll_probability": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "euclidean_distance": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "final_velocity": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_majority_element": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_n_largest_numbers": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_next_greater_element": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_pairs_with_sum": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "future_investment_value": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "get_city_from_zipcode": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "get_ip_zipcode": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_leap_year": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_perfect_square": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_power_of_two": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_sum_of_cubes": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_valid_ip_address": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "linear_regression_prediction": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "loginuser": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "min_meeting_rooms": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "neuronal_activity_rate": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "numerical_derivative": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "predict_evolution_rate": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "predict_forest_area": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "project_investment_growth": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "reverse_string": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "search": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "simulate_query_database": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "solve_quadratic": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "sort_numbers": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "std_deviation": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "structural_analysis": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "triangle_area": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "whois": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    }
+  }
+}
