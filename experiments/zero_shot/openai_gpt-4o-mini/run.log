@@ -1,0 +1,5 @@
+model=openai:gpt-4o-mini
+n=5  fails=5  fail_rate=1.000
+seconds=8.2
+split=splits/test_5.csv
+out=experiments/zero_shot/openai_gpt-4o-mini/pred_test.csv
