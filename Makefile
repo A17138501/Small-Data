@@ -4,13 +4,13 @@
 # BASE_PATH = /Users/rundongguo/Desktop/cogs\ 108/Untitled/Small-Data
 
 #iris
-BASE_PATH = "/Users/iriswu/Desktop/3001\ Small\ Data/Small-Data"
+BASE_PATH = /Users/iriswu/Desktop/3001\ Small\ Data/Small-Data
 
 
 OUTDIR    = $(BASE_PATH)/reports/baselines
 EXPER_DIR = experiments
 
-SIZES = 50 200 1000 5000
+SIZES = 50 200
 
 # eval:
 # 	@for size in $(SIZES); do \
