@@ -218,7 +218,12 @@ def main():
 
     # If pred file missing → auto-generate a perfect prediction to unblock the run
     pred_path = Path(args.pred)
+    no_autofill = os.getenv("EVAL_NO_AUTOFILL") == "1"   # 🔹 新增这一行
     if not pred_path.exists():
+        if no_autofill:
+            raise FileNotFoundError(
+                f"PRED not found and autofill disabled (EVAL_NO_AUTOFILL=1): {pred_path}"
+            )
         _write_perfect_pred_from_gold(gold, str(pred_path))
 
     pred = load_pred(str(pred_path))

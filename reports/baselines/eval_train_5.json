@@ -1,0 +1,46 @@
+{
+  "overall": {
+    "n": 5,
+    "tool_acc": 1.0,
+    "arg_em": 0.8,
+    "exec_success": 1.0,
+    "joint": 0.8
+  },
+  "per_tool": {
+    "bacterial_growth": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_investment_return": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "calculate_standard_deviation": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "loginuser": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "search": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    }
+  }
+}

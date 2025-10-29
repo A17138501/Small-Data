@@ -1,18 +1,39 @@
 {
   "overall": {
     "n": 200,
-    "tool_acc": 1.0,
-    "arg_em": 1.0,
+    "tool_acc": 0.96,
+    "arg_em": 0.79,
     "exec_success": 1.0,
-    "joint": 1.0
+    "joint": 0.785
   },
   "per_tool": {
     "search": {
       "n": 3,
       "tool_acc": 1.0,
+      "arg_em": 0.3333333333333333,
+      "exec_success": 1.0,
+      "joint": 0.3333333333333333
+    },
+    "euclidean_distance": {
+      "n": 2,
+      "tool_acc": 0.5,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "get_dna_sequence": {
+      "n": 2,
+      "tool_acc": 0.5,
+      "arg_em": 0.5,
+      "exec_success": 1.0,
+      "joint": 0.5
+    },
+    "get_ip_zipcode": {
+      "n": 2,
+      "tool_acc": 0.5,
       "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.5
     },
     "albums_get_related_artist": {
       "n": 1,
@@ -20,6 +41,13 @@
       "arg_em": 1.0,
       "exec_success": 1.0,
       "joint": 1.0
+    },
+    "alerts_active_zone_zoneid": {
+      "n": 1,
+      "tool_acc": 0.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
     },
     "all_songs_from_artist": {
       "n": 1,
@@ -80,9 +108,9 @@
     "billboard_hot_100": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "binary_addition": {
       "n": 1,
@@ -171,9 +199,9 @@
     "calculate_investment_return": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "calculate_median": {
       "n": 1,
@@ -311,23 +339,23 @@
     "details": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "dice_roll_probability": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "directions_between_2_locations": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "displacement": {
       "n": 1,
@@ -358,20 +386,6 @@
       "joint": 1.0
     },
     "emailvalidation": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
-    "euclidean_distance": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
-    "expand_around_center": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -518,19 +532,12 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "find_peak_element": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
     "fixtures": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "flatten_list": {
       "n": 1,
@@ -542,18 +549,11 @@
     "format_date": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "future_investment_value": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
-    "generate": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -577,9 +577,9 @@
     "geocode_city": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "get_analysis": {
       "n": 1,
@@ -591,9 +591,9 @@
     "get_artist_s_albums": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "get_channel_points_context": {
       "n": 1,
@@ -616,13 +616,6 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "get_dna_sequence": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
     "get_holidays_by_year": {
       "n": 1,
       "tool_acc": 1.0,
@@ -630,33 +623,26 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "get_ip_location": {
+    "get_news_from_one_news_source": {
       "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "tool_acc": 0.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
-    },
-    "get_ip_zipcode": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "get_order": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "get_pokemon_move_info": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "get_product": {
       "n": 1,
@@ -689,9 +675,9 @@
     "get_regions": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "get_sample_userprofile": {
       "n": 1,
@@ -721,6 +707,13 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "getrandompassword": {
+      "n": 1,
+      "tool_acc": 0.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
     "getuserbyname": {
       "n": 1,
       "tool_acc": 1.0,
@@ -743,13 +736,6 @@
       "joint": 1.0
     },
     "hsl_to_rgb": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
-    "image_search": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -780,9 +766,9 @@
     "integrate": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "investment_profit": {
       "n": 1,
@@ -822,16 +808,9 @@
     "is_hotel_available": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
-    },
-    "is_leap_year": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "is_palindrome": {
       "n": 1,
@@ -913,9 +892,9 @@
     "is_valid_sudoku": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "latest": {
       "n": 1,
@@ -927,9 +906,9 @@
     "latest_rates": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "least_common_multiple": {
       "n": 1,
@@ -938,12 +917,19 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "light_travel_time": {
+      "n": 1,
+      "tool_acc": 0.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
     "linear_regression_prediction": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "loginuser": {
       "n": 1,
@@ -990,16 +976,16 @@
     "mean_confidence_interval": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "measure_distance": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "memre_api_v1_readiness": {
       "n": 1,
@@ -1053,9 +1039,9 @@
     "numerical_derivative": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "obd2_code": {
       "n": 1,
@@ -1130,9 +1116,9 @@
     "product_reviews": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "products_detail": {
       "n": 1,
@@ -1144,16 +1130,16 @@
     "products_get_reviews": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "project_investment_growth": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "project_population": {
       "n": 1,
@@ -1165,16 +1151,16 @@
     "property_details": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "remove_duplicates": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "results": {
       "n": 1,
@@ -1207,16 +1193,16 @@
     "search_for_any_category_or_star": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "search_suggestions": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "searchjobs": {
       "n": 1,
@@ -1228,9 +1214,9 @@
     "simulate_query_database": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "solve_quadratic": {
       "n": 1,
@@ -1267,13 +1253,6 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "time_zone_api": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
     "title_v2_get_business": {
       "n": 1,
       "tool_acc": 1.0,
@@ -1288,26 +1267,26 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "top_headlines": {
-      "n": 1,
-      "tool_acc": 1.0,
-      "arg_em": 1.0,
-      "exec_success": 1.0,
-      "joint": 1.0
-    },
     "top_players_by_matchmaking": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "translate": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
+    },
+    "translation": {
+      "n": 1,
+      "tool_acc": 0.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
     },
     "trapezoidal_integration": {
       "n": 1,
@@ -1319,9 +1298,9 @@
     "triangle_area": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "v1_whois": {
       "n": 1,
@@ -1361,9 +1340,9 @@
     "web_search": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 1.0,
+      "arg_em": 0.0,
       "exec_success": 1.0,
-      "joint": 1.0
+      "joint": 0.0
     },
     "whois": {
       "n": 1,

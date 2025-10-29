@@ -1,12 +1,26 @@
 {
   "overall": {
-    "n": 50,
-    "tool_acc": 0.98,
-    "arg_em": 0.82,
+    "n": 100,
+    "tool_acc": 0.97,
+    "arg_em": 0.85,
     "exec_success": 1.0,
-    "joint": 0.82
+    "joint": 0.84
   },
   "per_tool": {
+    "get_ip_zipcode": {
+      "n": 2,
+      "tool_acc": 0.5,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 0.5
+    },
+    "search": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 0.5,
+      "exec_success": 1.0,
+      "joint": 0.5
+    },
     "analyze_social_group_dynamics": {
       "n": 1,
       "tool_acc": 1.0,
@@ -15,6 +29,20 @@
       "joint": 1.0
     },
     "assess_diabetes_risk": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "auto_complete": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "average": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -42,7 +70,21 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "binary_search": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "cagr": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_angle": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -64,6 +106,20 @@
       "joint": 1.0
     },
     "calculate_electric_field": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_factorial": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_grade": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -133,12 +189,40 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "cosine_similarity": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "count_bits": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "create_histogram": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "dice_roll_probability": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 0.0,
       "exec_success": 1.0,
       "joint": 0.0
+    },
+    "draw_cards": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
     },
     "euclidean_distance": {
       "n": 1,
@@ -147,6 +231,20 @@
       "exec_success": 1.0,
       "joint": 0.0
     },
+    "fibonacci": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "fibonacci_numbers": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "final_velocity": {
       "n": 1,
       "tool_acc": 1.0,
@@ -154,7 +252,49 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "find_equilibrium_index": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_first_non_repeating_char": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_kth_smallest_number": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_longest_word": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "find_majority_element": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_max_subarray_sum": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_missing_number": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -182,7 +322,28 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "flatten_list": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "future_investment_value": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "generate_password": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "generate_random_string": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -203,7 +364,56 @@
       "exec_success": 1.0,
       "joint": 0.0
     },
-    "get_ip_zipcode": {
+    "get_order": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "get_pokemon_move_info": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "get_product": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "get_products_in_category": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "greatest_common_divisor": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "independent_samples_t_test": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_hotel_available": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "is_palindrome": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -217,7 +427,28 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "is_power": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "is_power_of_two": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_prime": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_rotation": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -231,7 +462,35 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "is_valid_email": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "is_valid_ip_address": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_valid_palindrome": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_valid_parentheses": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "least_common_multiple": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -252,7 +511,28 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "mean_confidence_interval": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "merge_sorted_lists": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "min_meeting_rooms": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "monthly_mortgage_payment": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -266,12 +546,47 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "note_duration": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "numerical_derivative": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 0.0,
       "exec_success": 1.0,
       "joint": 0.0
+    },
+    "permutation_count": {
+      "n": 1,
+      "tool_acc": 0.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "place_safeway_order": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "polygon_area_shoelace": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "potential_energy": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
     },
     "predict_evolution_rate": {
       "n": 1,
@@ -287,6 +602,13 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
+    "probability_of_consecutive_rolls": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
     "project_investment_growth": {
       "n": 1,
       "tool_acc": 1.0,
@@ -294,14 +616,14 @@
       "exec_success": 1.0,
       "joint": 0.0
     },
-    "reverse_string": {
+    "project_population": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "search": {
+    "reverse_string": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -329,14 +651,14 @@
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "std_deviation": {
+    "structural_analysis": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
       "exec_success": 1.0,
       "joint": 1.0
     },
-    "structural_analysis": {
+    "trapezoidal_integration": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
@@ -351,6 +673,20 @@
       "joint": 0.0
     },
     "whois": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "whole_foods_order": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "wire_resistance": {
       "n": 1,
       "tool_acc": 1.0,
       "arg_em": 1.0,
