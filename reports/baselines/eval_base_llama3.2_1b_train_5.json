@@ -1,0 +1,18 @@
+{
+  "overall": {
+    "n": 5,
+    "tool_acc": 0.0,
+    "arg_em": 0.0,
+    "exec_success": 0.0,
+    "joint": 0.0
+  },
+  "per_tool": {
+    "NaN": {
+      "n": 5,
+      "tool_acc": 0.0,
+      "arg_em": 0.0,
+      "exec_success": 0.0,
+      "joint": 0.0
+    }
+  }
+}
