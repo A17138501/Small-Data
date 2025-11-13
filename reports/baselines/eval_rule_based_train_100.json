@@ -2,9 +2,9 @@
   "overall": {
     "n": 100,
     "tool_acc": 0.83,
-    "arg_em": 0.0,
+    "arg_em": 0.08,
     "exec_success": 1.0,
-    "joint": 0.0
+    "joint": 0.08
   },
   "per_tool": {
     "bacterial_growth": {
@@ -52,9 +52,9 @@
     "is_sum_of_cubes": {
       "n": 2,
       "tool_acc": 0.5,
-      "arg_em": 0.0,
+      "arg_em": 0.5,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 0.5
     },
     "is_valid_email": {
       "n": 2,
@@ -80,9 +80,9 @@
     "search": {
       "n": 2,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 0.5,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 0.5
     },
     "analyze_social_group_dynamics": {
       "n": 1,
@@ -150,9 +150,9 @@
     "calculate_factorial": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 1.0
     },
     "calculate_investment_return": {
       "n": 1,
@@ -227,9 +227,9 @@
     "count_bits": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 1.0
     },
     "count_occurrences": {
       "n": 1,
@@ -262,9 +262,9 @@
     "fibonacci": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 1.0
     },
     "final_velocity": {
       "n": 1,
@@ -395,9 +395,9 @@
     "get_product": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 1.0
     },
     "greatest_common_divisor": {
       "n": 1,
@@ -430,9 +430,9 @@
     "is_perfect_square": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 1.0
     },
     "is_power": {
       "n": 1,
@@ -451,9 +451,9 @@
     "is_prime": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 1.0
     },
     "is_rotation": {
       "n": 1,

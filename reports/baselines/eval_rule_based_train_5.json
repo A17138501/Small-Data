@@ -2,9 +2,9 @@
   "overall": {
     "n": 5,
     "tool_acc": 1.0,
-    "arg_em": 0.0,
+    "arg_em": 0.2,
     "exec_success": 1.0,
-    "joint": 0.0
+    "joint": 0.2
   },
   "per_tool": {
     "bacterial_growth": {
@@ -38,9 +38,9 @@
     "search": {
       "n": 1,
       "tool_acc": 1.0,
-      "arg_em": 0.0,
+      "arg_em": 1.0,
       "exec_success": 1.0,
-      "joint": 0.0
+      "joint": 1.0
     }
   }
 }

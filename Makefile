@@ -25,11 +25,11 @@ SIZES = 5 50 100 200
 
 eval:
 	@for size in $(SIZES); do \
-		echo ">>> Evaluating BASE LLaMA-3.2-1B train_$$size.csv..."; \
+		echo ">>> Evaluating RULE-BASED train_$$size.csv..."; \
 		EVAL_NO_AUTOFILL=1 python -m evaluation.eval_calls \
 			--gold $(BASE_PATH)/splits/train_$$size.csv \
-			--pred $(EXPER_DIR)/base/llama3.2-1b/pred_train_$$size.csv \
-			--run_name base_llama3.2_1b_train_$$size \
+			--pred $(EXPER_DIR)/rule_based/pred_train_$$size.csv \
+			--run_name rule_based_train_$$size \
 			--out_dir $(OUTDIR); \
 		echo ""; \
 	done
