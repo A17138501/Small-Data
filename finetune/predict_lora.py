@@ -139,21 +139,25 @@ def call_ollama(model: str, prompt: str, temperature: float, max_tokens: int) ->
 
 
 # ---------- 后端 2：MLX + LoRA ----------
-def call_mlx(model: str, adapter: Optional[str], prompt: str, temperature: float, max_tokens: int) -> str:
-    if mlx_load is None:
-        raise RuntimeError("mlx_lm not installed")
-    model_obj, tokenizer = mlx_load(model, adapter=adapter)
-
+def call_mlx(model: str, adapter: Optional[str], prompt: str, temperature: float, max_tokens: int, tokenizer) -> str:
+    # if mlx_load is None:
+        # raise RuntimeError("mlx_lm not installed")
+    # print("loading")
+    # print("loaded!")
+    # print("===============")
+    # print(prompt)
     out_tokens = []
+    # print("generating...")
     for chunk in mlx_generate(
-        model=model_obj,
+        model=model,
         tokenizer=tokenizer,
         prompt=prompt,
-        temp=temperature,
+        # temperature=temperature,
         max_tokens=max_tokens,
-        stream=True,
+        # stream=True,
     ):
         out_tokens.append(chunk)
+    # print("done")
     return "".join(out_tokens)
 
 
@@ -187,6 +191,7 @@ def call_hf(model_name: str, prompt: str, temperature: float, max_tokens: int, a
 
 # ---------- 主流程 ----------
 def main():
+    from tqdm import tqdm
     ap = argparse.ArgumentParser()
     ap.add_argument("--split", required=True, help="CSV with columns: id,query,tools")
     ap.add_argument("--out_csv", required=True)
@@ -214,6 +219,8 @@ def main():
         reader = csv.DictReader(f)
         for r in reader:
             rows.append({"id": r["id"], "query": r["query"], "tools": r["tools"]})
+            if len(rows) == 100:
+                break
 
     # 输出目录
     out_dir = os.path.dirname(args.out_csv)
@@ -227,16 +234,26 @@ def main():
         )
         writer.writeheader()
 
-        for r in rows:
+        model_obj, tokenizer = mlx_load(args.mlx_model, adapter_path=args.mlx_adapter)
+        # model_obj, tokenizer = mlx_load(args.mlx_model, adapter_path=None)
+
+
+
+        for r in tqdm(rows, desc="generating"):
             prompt = build_prompt(r["query"], r["tools"])
             try:
                 if args.use_ollama:
                     raw = call_ollama(args.use_ollama, prompt, args.temperature, args.max_tokens)
                 elif args.mlx_model:
-                    raw = call_mlx(args.mlx_model, args.mlx_adapter, prompt, args.temperature, args.max_tokens)
+                    # print("call mlx")
+                    # raw = call_mlx(model_obj, args.mlx_adapter, prompt, args.temperature, args.max_tokens, tokenizer)
+                    raw = call_mlx(model_obj, None, prompt, args.temperature, args.max_tokens, tokenizer)
+
+                    print(raw)
                 else:
                     raw = call_hf(args.hf_model, prompt, args.temperature, args.max_tokens, args.hf_adapter)
             except Exception as e:
+                raise e
                 raw = f"__ERROR__: {type(e).__name__}: {e}"
 
             tool, args_json = extract_json_tool(raw)
