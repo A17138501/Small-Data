@@ -1,0 +1,585 @@
+{
+  "overall": {
+    "n": 100,
+    "tool_acc": 0.99,
+    "arg_em": 0.65,
+    "exec_success": 1.0,
+    "joint": 0.65
+  },
+  "per_tool": {
+    "assess_diabetes_risk": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "binary_addition": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_calorie_intake": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 0.5,
+      "exec_success": 1.0,
+      "joint": 0.5
+    },
+    "calculate_median": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "dice_roll_probability": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "future_investment_value": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "get_city_from_zipcode": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "get_order": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "get_product": {
+      "n": 2,
+      "tool_acc": 0.5,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "greatest_common_divisor": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_leap_year": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_rotation": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_sum_of_cubes": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "least_common_multiple": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "numerical_derivative": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "reverse_string": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "std_deviation": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "whois": {
+      "n": 2,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "albums_get_related_artist": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "auto_complete": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "average": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "batting_average": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "cagr": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_angle": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_distance": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_factorial": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_investment_return": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "calculate_quarterly_dividend": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "california_alimony": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "cell_density": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "chi_square_independence_test": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "compound_interest": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "cosine_similarity": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "draw_cards": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "factorial": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "fibonacci_numbers": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "final_velocity": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_equilibrium_index": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_kth_smallest_number": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "find_majority_element": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_max_subarray_sum": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "find_minimum_rotated_sorted_array": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_n_largest_numbers": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "find_peak_element": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "flatten_list": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "format_date": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "generate_random_string": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "geocode_city": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "get": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "get_call": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "get_cities": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "get_followers_by_username": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "innings_cricket": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "investment_profit": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_armstrong_number": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_palindrome": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_perfect_square": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_power_of_two": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_valid_email": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "is_valid_palindrome": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "linear_regression_prediction": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "loginuser": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "memre_api_v1_study": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "neuronal_activity_rate": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "options_prices": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "place_safeway_order": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "polygon_area_shoelace": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "potential_energy": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "predict_evolution_rate": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "predict_forest_area": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "probability_of_consecutive_rolls": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "products_search": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "project_investment_growth": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "search": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "search_all_words_api": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "simulate_query_database": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "solve_quadratic": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "structural_analysis": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "suggestqueries": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "tmall_search_by_keyword": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 0.0,
+      "exec_success": 1.0,
+      "joint": 0.0
+    },
+    "wire_resistance": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    },
+    "word_frequency": {
+      "n": 1,
+      "tool_acc": 1.0,
+      "arg_em": 1.0,
+      "exec_success": 1.0,
+      "joint": 1.0
+    }
+  }
+}
